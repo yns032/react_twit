@@ -1,6 +1,8 @@
 import Topics from "../../../components/topics";
+import Footer from "./footer";
 import PremiumSub from "./premiumsub";
 import Search from "./search";
+import WhoUser from "./whouser";
 
 export default function RightBar() {
     return (
@@ -8,6 +10,8 @@ export default function RightBar() {
             <Search />
             <PremiumSub />
             <Topics />
+            <WhoUser />
+            <Footer />
         </aside>
     )
 }

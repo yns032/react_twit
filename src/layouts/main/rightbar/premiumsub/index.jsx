@@ -1,6 +1,6 @@
 export default function PremiumSub() {
     return (
-        <div className="w-[350px] h-[147px] text-left pl-2 mt-6 border  border-[#16181c] rounded-md bg-[#eff3f41a]">
+        <div className="w-[350px] h-[147px] text-left pl-2 mt-6 border  border-[#16181c] bg-[#16181c] rounded-md ">
             <span className="text-[22px] pt-2 ">Premium'a abone olun</span>
             <p className="pt-2">
                 Yeni özelliklerin kilidini açmak için abone olun ve uygunsa reklam gelirinden pay alın.
