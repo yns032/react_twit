@@ -8,7 +8,7 @@ export default function Search() {
 
     return (
         <label
-            className="text-gray-500  group mt-2">
+            className="text-gray-500  group mt-2 sticky top-0">
             <div className="absolute  mt-4 ml-2   rounded-full">
                 <svg viewBox="0 0 24 24" width={"43px"} height={"20px"}>
                     <path fill="#bfc8ca1a"
@@ -22,7 +22,7 @@ export default function Search() {
                 onBlur={() => setFocus(false)}
                 onChange={e => setQuary(e.target.value)}
                 className="bg-[#eff3f41a]  w-[347px] h-[42px]  mt-1 focus:outline-none  focus:ring focus:ring-offset-blue-600 rounded-full" />
-            <div className="-mt-8 -ml-60 pl-2 ">
+            <div className="-mt-8 pl-12 ">
                 Ara
             </div>
             {(quary && focus) && (

@@ -117,5 +117,44 @@ export const topics = [
             value: 'Hamas'
         },
         postCount: 13253
+    },
+    {
+        title: 'Türkiyede trend',
+        topic: {
+            type: 'tag',
+            value: 'İsrail'
+        }
+    },
+    {
+        title: 'Türkiyede trend',
+        topic: {
+            type: 'tag',
+            value: 'Hamas'
+        },
+        postCount: 13253
+    },
+    {
+        title: 'Türkiyede trend',
+        topic: {
+            type: 'tag',
+            value: 'İsrail'
+        }
+    },
+    {
+        title: 'Türkiyede trend',
+        topic: {
+            type: 'tag',
+            value: 'Hamas'
+        },
+        postCount: 13253
+    }
+    ,
+    {
+        title: 'Türkiyede trend',
+        topic: {
+            type: 'tag',
+            value: 'Hamas'
+        },
+        postCount: 13253
     }
 ]
