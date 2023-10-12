@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { topics } from "../../utils/consts";
 import Topic from "./topic";
 
@@ -9,6 +10,9 @@ export default function Topics() {
             <div className="grid">
                 {topics.map((topic, index) => (<Topic item={topic} key={index} />))}
             </div>
+            <Link to="/trends" className="w-[347px] h-[51px] flex text-[#1d9bf0] items-center pl-3 py-3 hover:bg-[#383b3f] rounded-xl">
+                Daha Fazla Göster
+            </Link>
         </div>
     )
 }
